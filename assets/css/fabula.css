@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;900&display=swap');
 
 body {
-    margin: 0;
-    height: 0;
-    width: auto;
+    font-family: 'Mulish', sans-serif;
 }
 
 h1 {
@@ -21,18 +19,17 @@ h2 {
     text-align: right;
     color: #15A085
 }
-
 h3 {
     font-family: 'Mulish', sans-serif;
     font-weight: 600;
     font-size: 13pt;
     text-align: center;
 }
-td {
-    vertical-align:bottom;
-    text-align:left;
-    width: 400px;
-}
+/*td {*/
+/*    vertical-align:bottom;*/
+/*    text-align:left;*/
+/*    width: 400px;*/
+/*}*/
 div {
     text-align: center;
 }
@@ -40,3 +37,42 @@ a {
     color: black;
     text-decoration: none;
 }
+ul {
+    color: #15A085;
+    font-size: 24pt;
+    font-weight: 700;
+    text-align: center;
+    list-style: none inside none;
+}
+li::before{
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-image: url("https://o.remove.bg/downloads/2acce5cd-8f54-4c28-8513-2d9abb20ad53/image-removebg-preview.png");
+    display: inline-block;
+    content: "";
+}
+li{
+    color: black;
+    font-size: 12pt;
+    font-weight: normal;
+    text-align: left;
+}
+
+table{
+    border: 3px solid;
+    border-collapse: collapse;
+}
+th{
+    background-color: #15A085;
+    color: white;
+    border: 3px solid black;
+    height: 40px;
+}
+td{
+    border: 3px solid;
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: center !important;
+}
+
