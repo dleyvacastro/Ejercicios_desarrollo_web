@@ -1,0 +1,50 @@
+body{
+    width: 800px;
+    margin: 50px auto;
+    border-width: 4px;
+    padding: 30px 30px 30px 30px;
+    /*border-style: dashed;*/
+    /*border-color: #FCFC34;*/
+    background-color: #15A085;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+    text-align: justify;
+}
+
+a {
+    color: #FCFC34;
+}
+table{
+    border: 4px dashed #FCFC34;
+    padding: 30px 30px 30px 30px;
+
+}
+
+
+/*.esopo h1 {*/
+/*    color: white;*/
+/*}*/
+
+/*.esopo p {*/
+/*    color: white;*/
+/*}*/
+/*.esopo img{*/
+/*    width: 120px;*/
+/*    float: left;*/
+/*    margin-right: 10px;*/
+/*}*/
+/*.esopo p {*/
+/*    text-align: justify;*/
+/*}*/
+
+/*.homero {*/
+/*    color: #FCFC34;*/
+/*}*/
+
+
