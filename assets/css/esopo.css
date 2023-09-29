@@ -3,9 +3,7 @@ body{
     margin: 50px auto;
     border-width: 4px;
     padding: 30px 30px 30px 30px;
-    /*border-style: dashed;*/
-    /*border-color: #FCFC34;*/
-    /*background-color: #15A085;*/
+    color: white;
 }
 
 h1 {

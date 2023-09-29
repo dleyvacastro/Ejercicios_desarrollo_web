@@ -1,0 +1,31 @@
+.p1 {
+    color: deepskyblue;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+.p2 {
+    background-color: #FC9804;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.p3 {
+    color: brown;
+    text-decoration: overline;
+    font-size: small;
+}
+
+h2 {
+    color: #15A085;
+    font-size: 36px;
+    font-family: 'Lato', sans-serif;
+}
+#t1r {
+    text-align: right;
+}
+.homero {
+    font-style: italic;
+    text-decoration: underline;
+    color: #FCFC34;
+}
