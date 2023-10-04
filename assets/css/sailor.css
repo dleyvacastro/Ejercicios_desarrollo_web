@@ -20,10 +20,18 @@ body {
     font-size: 40px;
     font-family: 'Fredoka One', cursive;
     margin-left: 30px;
+    transform: translateY(-25px);
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: linear;
 }
 
 .titulo img {
     width: 150px;
+    transform: translate(700px);
+    transition-property: transform;
+    transition-timing-function: linear;
+    transition-duration: 10s;
 }
 
 .contenido {
@@ -51,8 +59,15 @@ body {
     margin-right: 20px;
     border: white 5px solid;
     border-radius: 100%;
+
 }
 
+.personaje:hover img{
+    transform: rotate(-50deg) scale(1.5);
+    transition-property: transform;
+    transition-timing-function: linear;
+    transition-duration: 5s;
+}
 .personaje h2{
     color: white;
     text-shadow: 0px 0px 10px #999999;
@@ -75,8 +90,69 @@ li::before {
 
 li {
     color: black;
-    font-size: 12pt;
+    font-size: 14pt;
     font-weight: normal;
     text-align: left;
     vertical-align: center;
+}
+
+.boton {
+    text-align: center;
+    background-color: blue;
+    padding: 20px 20px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.boton a{
+    margin: 20px 0;
+    color: white;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background-color: red;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+
+.cajaprincipal {
+    width: 270px;
+    height: 350px;
+    background-color: black;
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0px 0px 20px black;
+    overflow: hidden;
+
+}
+
+.encabezado{
+    background-color: white;
+    color: black;
+    font-family: 'Fredoka One', cursive;
+    padding: 20px 0;
+}
+.cajaperfil {
+    width: 540px;
+}
+.cajaperfil:hover {
+    transform: translateX(-270px);
+    transition: transform 2s linear;
+}
+.foto, .header2{
+    width: 270px;
+    text-align: center;
+    margin: 20px 0;
+    float: left;
+}
+.foto img{
+    width: 100px;
+    border-radius: 100%;
+}
+.header2 img{
+    width: 50%;
 }
