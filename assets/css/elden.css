@@ -1,0 +1,11 @@
+.container-fluid img{
+    width: 70px
+}
+.d-flex {
+    flex: min-content;
+}
+
+#navbarNav {
+    display: flex;
+    align-items: stretch;
+}
