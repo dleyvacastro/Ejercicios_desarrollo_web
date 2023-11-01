@@ -6,3 +6,23 @@ console.log(`Suma: ${a+b}`);
 let n1 = parseInt( prompt("Ingrese un numero: "));
 let n2 = parseInt( prompt("Ingrese un numero: "));
 console.log(`Suma: ${n1+n2}`);
+
+function suma(x,y) {
+    return x+y;
+}
+
+function resta(x,y) {
+    return x-y;
+}
+
+function multiplicacion(x,y){
+    return x*y;
+}
+
+function division(x,y){
+    return x/y;
+}
+
+function divisionEntera(x,y){
+    return x//y;
+}
